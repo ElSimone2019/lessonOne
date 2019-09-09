@@ -9,7 +9,7 @@ int main()
 {
 	//Variables to contain the numbers for the calculation
 	int radius = 0;
-	float pi = 3.14159;
+	double pi = 3.14159;
 	int ans = 0;
 
 	//Asks for the radius of the circle

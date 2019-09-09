@@ -22,5 +22,5 @@ int main()
 	cin >> age;
 
 	//Output the users details
-	cout << "I know your name is " << name << ", your favourite colour is " << colour << " and you are " << age << " years old."
+	cout << "I know your name is " << name << ", your favourite colour is " << colour << " and you are " << age << " years old.";
 }

@@ -12,7 +12,7 @@ int main()
 
 	//User input for position
 	cout << "What was your position in the race?: ";
-	cin >> input;
+	cin >> position;
 
 	//If statement to find medal
 	if (position == 1) {
