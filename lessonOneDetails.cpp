@@ -11,7 +11,7 @@ int main()
 	//Variables to hold information about the user
 	string name;
 	string colour;
-	string age;
+	int age;
 
 	//User inputs
 	cout << "What is your name?: ";
