@@ -10,10 +10,11 @@ int main()
 	//Variables to contain the numbers for the calculation
 	int num1 = 0;
 	int num2 = 0;
+	int num3 = 0;
 	int ans = 0;
 
 	//Asks for the first number
-    cout << "Please type in the first number: ";
+	cout << "Please type in the first number: ";
 	cin >> num1;
 	cout << "\n";
 
@@ -22,10 +23,15 @@ int main()
 	cin >> num2;
 	cout << "\n";
 
+	//Asks for the third number
+	cout << "Please type in the third number: ";
+	cin >> num3;
+	cout << "\n";
+
 	//Does the calculation
-	ans = num1 * num2;
+	ans = num1 * num2 * num3;
 
 	//Outputs the answer
 	cout << "The answer is " << ans << ".\n";
-	
+
 }
