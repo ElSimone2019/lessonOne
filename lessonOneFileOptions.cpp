@@ -15,17 +15,17 @@ int main()
 	while (choice != "Exit") {
 
 		//Menu options and input
-		cout << "Program Menu\n*Open file\n*Save file\n*Exit program\n";
+		cout << "Program Menu\n*Open\n*Save\n*Exit\n";
 		cin >> choice;
 
 		//If statement to pick options
-		if (choice == "Open file") {
+		if (choice == "Open") {
 			cout << "You have selected to open a file\n";
 		}
-		else if (choice == "Save file") {
+		else if (choice == "Save") {
 			cout << "You have selected to save a file\n";
 		}
-		else if (choice == "Exit program") {
+		else if (choice == "Exit") {
 			cout << "You have selected to exit\n";
 			return 0;
 		}

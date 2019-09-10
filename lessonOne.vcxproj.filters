@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lessonOneWages.cpp">
+    <ClCompile Include="lessonOneFileOptions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
